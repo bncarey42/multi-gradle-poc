@@ -1,0 +1,9 @@
+dependencies {	
+	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+	
+	
+ext.library = [
+	mySQL:'mysql:mysql-connector-java'
+]
